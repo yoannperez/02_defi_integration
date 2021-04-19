@@ -33,7 +33,7 @@ nav li a{
  /* Section Hero */
 
 #hero .photo{
-    background-image: url(Images/backgroung_image.jpg);
+    background-image: url(../Images/backgroung_image.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
