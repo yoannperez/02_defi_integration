@@ -32,14 +32,13 @@ nav li a{
 
 #hero .photo{
     background-image: url(../Images/backgroung_image.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
-    width: 100vw;
     min-width: 100%;
     min-height: 450px;
 
