@@ -4,6 +4,9 @@
 body{
     font-family: 'Roboto', sans-serif;
     color: rgba(0, 0, 0, 0.709);
+    max-width: 1320px;
+    margin: auto;
+   
 }
 
 /* Section Header */
