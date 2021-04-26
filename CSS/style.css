@@ -1,147 +1,159 @@
 /* Generals */
 
-
-body{
-    font-family: 'Roboto', sans-serif;
-    color: rgba(0, 0, 0, 0.709);
-    max-width: 1320px;
-    margin: auto;
-   
+body {
+  font-family: "Roboto", sans-serif;
+  color: rgba(0, 0, 0, 0.709);
+  max-width: 1320px;
+  margin: auto;
 }
 
 /* Section Header */
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: -4px;
-    }
-header img{
-    height: 105px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: -4px;
 }
-nav ul{
-    display: flex;
+header img {
+  height: 105px;
 }
-nav li{
-    list-style: none;
-    margin-right: 15px;
+nav ul {
+  display: flex;
 }
-nav li a{
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
+nav li {
+  list-style: none;
+  margin-right: 15px;
 }
- /* Section Hero */
+nav li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+/* Section Hero */
 
-#hero .photo{
-    background-image: url(../Images/backgroung_image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    min-width: 100%;
-    min-height: 450px;
-
-}
-
-#hero img{
-    height: 60px;
-    width: 200px;
+#hero .photo {
+  background-image: url(../Images/backgroung_image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  min-width: 100%;
+  min-height: 450px;
 }
 
-#hero h2{
-    color: white;
-    font-size: 32px;
+#hero img {
+  height: 60px;
+  width: 200px;
+}
+
+#hero h2 {
+  color: white;
+  font-size: 32px;
 }
 
 /* Section Services */
 
-#services{
-    margin: auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width: 70%;
-    margin-top: 20px;
+#services {
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin-top: 20px;
 }
-#services h1{
-    font-size: 20px;
+#services h1 {
+  font-size: 20px;
 }
-.types h3{
-    text-transform: uppercase;
-    font-size: 20px;
+.types h3 {
+  text-transform: uppercase;
+  font-size: 20px;
 }
-.types p{
-    font-size: 12px;
+.types p {
+  font-size: 12px;
 }
 .types {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    padding: 20px 20px;
-    width: 80%;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  padding: 20px 20px;
+  width: 80%;
 }
-.types div{
-    margin: 0 10px;
-   
+.types div {
+  margin: 0 10px;
 }
-blockquote p{
-    width: 460px;
+blockquote p {
+  width: 460px;
 }
 
 /* Footer */
 
-footer{
-    background-color: #5b359d;
-    color: white;
-    height: 220px;
-    text-align: center;
-    padding: 30px 30px 0 30px;
-
+footer {
+  background-color: #5b359d;
+  color: white;
+  height: 220px;
+  text-align: center;
+  padding: 30px 30px 0 30px;
 }
 /* social networks icons */
 
-#links{
-    display: flex;
-    justify-content: center;
+#links {
+  display: flex;
+  justify-content: center;
 }
-#links a{
-    margin: 0 40px;
+#links a {
+  margin: 0 40px;
 }
-#links i{
-    font-size: 32px;
-    color: #bdaed8;
+#links i {
+  font-size: 32px;
+  color: #bdaed8;
 }
 
 /* links */
 
-#foot{
-    display: flex;
-    justify-content: space-around;
-    padding-top: 10px;
+#foot {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
 }
-#foot p{
-    font-size: 14px;
+#foot p {
+  font-size: 14px;
 }
-#foot div{
-    text-align: left;
+#foot div {
+  text-align: left;
 }
-#foot h3{
-    color: #bdaed8;
+#foot h3 {
+  color: #bdaed8;
 }
-#foot ul{
-    text-align: left;
+#foot ul {
+  text-align: left;
 }
-#foot a{
-    color: white;
+#foot a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+#adress p {
+  margin-left: 30px;
+}
+/* ------------ Media Queries -------------- */
+/* ------------ Mobiles -------------- */
+@media all and (max-width: 480px) {
+  /* Vos règles CSS pour les mobiles ici */
+}
+
+/* ------------ Tablettes -------------- */
+@media all and (min-width: 481px) and (max-width: 768px) {
+  header img {
+    height: 75px;
+  }
+  nav li a {
+    color: rgb(239, 0, 0);
     text-decoration: none;
-    font-size: 14px;
-}
-#adress p{
-    margin-left: 30px;
+    font-size: 18px;
+  }
 }
